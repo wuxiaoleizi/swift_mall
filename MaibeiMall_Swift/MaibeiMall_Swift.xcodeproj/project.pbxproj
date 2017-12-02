@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AD554F91FD2832A00E70107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD554F81FD2832A00E70107 /* Assets.xcassets */; };
+		3AD554FC1FD2832A00E70107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD554FA1FD2832A00E70107 /* LaunchScreen.storyboard */; };
+		3AD555071FD2832A00E70107 /* MaibeiMall_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555061FD2832A00E70107 /* MaibeiMall_SwiftTests.swift */; };
+		3AD555121FD2832A00E70107 /* MaibeiMall_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555111FD2832A00E70107 /* MaibeiMall_SwiftUITests.swift */; };
+		3AD555451FD2877D00E70107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555441FD2877D00E70107 /* AppDelegate.swift */; };
+		3AD555471FD2879B00E70107 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555461FD2879B00E70107 /* Header.swift */; };
+		3AD555491FD287C000E70107 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555481FD287C000E70107 /* BaseModel.swift */; };
+		3AD5554C1FD2881400E70107 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5554B1FD2881400E70107 /* BaseController.swift */; };
+		3AD5554E1FD2884000E70107 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5554D1FD2884000E70107 /* Categories.swift */; };
+		3AD555501FD2886B00E70107 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5554F1FD2886B00E70107 /* BaseView.swift */; };
+		3AD555521FD288B200E70107 /* MBShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555511FD288B200E70107 /* MBShopController.swift */; };
+		3AD555541FD288CE00E70107 /* MBShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555531FD288CE00E70107 /* MBShopView.swift */; };
+		3AD555561FD288E000E70107 /* MineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555551FD288E000E70107 /* MineViewModel.swift */; };
+		3AD555581FD2891600E70107 /* MBMineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555571FD2891600E70107 /* MBMineController.swift */; };
+		3AD5555C1FD289A100E70107 /* MBMineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5555B1FD289A100E70107 /* MBMineView.swift */; };
+		3AD5555E1FD289BF00E70107 /* MBShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5555D1FD289BF00E70107 /* MBShopViewModel.swift */; };
+		3AD555601FD289D100E70107 /* MBMineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5555F1FD289D100E70107 /* MBMineCell.swift */; };
+		3AD555621FD28A0100E70107 /* MBShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555611FD28A0100E70107 /* MBShopCell.swift */; };
+		7C13F13379663E08FFC0FEB6 /* Pods_MaibeiMall_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FC3022B6087A18164C475B /* Pods_MaibeiMall_Swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AD555031FD2832A00E70107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AD554E61FD2832A00E70107 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AD554ED1FD2832A00E70107;
+			remoteInfo = MaibeiMall_Swift;
+		};
+		3AD5550E1FD2832A00E70107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AD554E61FD2832A00E70107 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AD554ED1FD2832A00E70107;
+			remoteInfo = MaibeiMall_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F4EB62714905ED98A1D6901 /* Pods-MaibeiMall_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaibeiMall_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaibeiMall_Swift/Pods-MaibeiMall_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		3AD554EE1FD2832A00E70107 /* MaibeiMall_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaibeiMall_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD554F81FD2832A00E70107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AD554FB1FD2832A00E70107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AD554FD1FD2832A00E70107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AD555021FD2832A00E70107 /* MaibeiMall_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaibeiMall_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD555061FD2832A00E70107 /* MaibeiMall_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaibeiMall_SwiftTests.swift; sourceTree = "<group>"; };
+		3AD555081FD2832A00E70107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AD5550D1FD2832A00E70107 /* MaibeiMall_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaibeiMall_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD555111FD2832A00E70107 /* MaibeiMall_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaibeiMall_SwiftUITests.swift; sourceTree = "<group>"; };
+		3AD555131FD2832A00E70107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AD555441FD2877D00E70107 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AD555461FD2879B00E70107 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		3AD555481FD287C000E70107 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		3AD5554B1FD2881400E70107 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		3AD5554D1FD2884000E70107 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		3AD5554F1FD2886B00E70107 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		3AD555511FD288B200E70107 /* MBShopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBShopController.swift; sourceTree = "<group>"; };
+		3AD555531FD288CE00E70107 /* MBShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBShopView.swift; sourceTree = "<group>"; };
+		3AD555551FD288E000E70107 /* MineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewModel.swift; sourceTree = "<group>"; };
+		3AD555571FD2891600E70107 /* MBMineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBMineController.swift; sourceTree = "<group>"; };
+		3AD5555B1FD289A100E70107 /* MBMineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBMineView.swift; sourceTree = "<group>"; };
+		3AD5555D1FD289BF00E70107 /* MBShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBShopViewModel.swift; sourceTree = "<group>"; };
+		3AD5555F1FD289D100E70107 /* MBMineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBMineCell.swift; sourceTree = "<group>"; };
+		3AD555611FD28A0100E70107 /* MBShopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBShopCell.swift; sourceTree = "<group>"; };
+		A7FC3022B6087A18164C475B /* Pods_MaibeiMall_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaibeiMall_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF13FCF6CCF389502A7B1C03 /* Pods-MaibeiMall_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaibeiMall_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaibeiMall_Swift/Pods-MaibeiMall_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AD554EB1FD2832A00E70107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C13F13379663E08FFC0FEB6 /* Pods_MaibeiMall_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD554FF1FD2832A00E70107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD5550A1FD2832A00E70107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26775753DE9E10EED0C5E73A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7FC3022B6087A18164C475B /* Pods_MaibeiMall_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AD554E51FD2832A00E70107 = {
+			isa = PBXGroup;
+			children = (
+				3AD554F01FD2832A00E70107 /* MaibeiMall_Swift */,
+				3AD555051FD2832A00E70107 /* MaibeiMall_SwiftTests */,
+				3AD555101FD2832A00E70107 /* MaibeiMall_SwiftUITests */,
+				3AD554EF1FD2832A00E70107 /* Products */,
+				C727D0E60C5B929931F6030B /* Pods */,
+				26775753DE9E10EED0C5E73A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3AD554EF1FD2832A00E70107 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AD554EE1FD2832A00E70107 /* MaibeiMall_Swift.app */,
+				3AD555021FD2832A00E70107 /* MaibeiMall_SwiftTests.xctest */,
+				3AD5550D1FD2832A00E70107 /* MaibeiMall_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AD554F01FD2832A00E70107 /* MaibeiMall_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				3AD555431FD2877D00E70107 /* AppDelegate */,
+				3AD555311FD286E100E70107 /* Classes */,
+				3AD554F81FD2832A00E70107 /* Assets.xcassets */,
+				3AD554FA1FD2832A00E70107 /* LaunchScreen.storyboard */,
+				3AD554FD1FD2832A00E70107 /* Info.plist */,
+			);
+			path = MaibeiMall_Swift;
+			sourceTree = "<group>";
+		};
+		3AD555051FD2832A00E70107 /* MaibeiMall_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AD555061FD2832A00E70107 /* MaibeiMall_SwiftTests.swift */,
+				3AD555081FD2832A00E70107 /* Info.plist */,
+			);
+			path = MaibeiMall_SwiftTests;
+			sourceTree = "<group>";
+		};
+		3AD555101FD2832A00E70107 /* MaibeiMall_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AD555111FD2832A00E70107 /* MaibeiMall_SwiftUITests.swift */,
+				3AD555131FD2832A00E70107 /* Info.plist */,
+			);
+			path = MaibeiMall_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		3AD555311FD286E100E70107 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5554A1FD287FB00E70107 /* Base */,
+				3AD555321FD286E100E70107 /* Categories */,
+				3AD555331FD286E100E70107 /* Macro */,
+				3AD555341FD286E100E70107 /* Model */,
+				3AD555351FD286E100E70107 /* Sections */,
+				3AD555421FD286E100E70107 /* Util */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3AD555321FD286E100E70107 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5554D1FD2884000E70107 /* Categories.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3AD555331FD286E100E70107 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				3AD555461FD2879B00E70107 /* Header.swift */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		3AD555341FD286E100E70107 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AD555481FD287C000E70107 /* BaseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AD555351FD286E100E70107 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				3AD555361FD286E100E70107 /* Mine */,
+				3AD5553C1FD286E100E70107 /* Shop */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		3AD555361FD286E100E70107 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				3AD555371FD286E100E70107 /* Controller */,
+				3AD555381FD286E100E70107 /* View */,
+				3AD5553B1FD286E100E70107 /* ViewModel */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		3AD555371FD286E100E70107 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3AD555511FD288B200E70107 /* MBShopController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3AD555381FD286E100E70107 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AD555391FD286E100E70107 /* Cell */,
+				3AD5553A1FD286E100E70107 /* SubView */,
+				3AD555531FD288CE00E70107 /* MBShopView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AD555391FD286E100E70107 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5555F1FD289D100E70107 /* MBMineCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3AD5553A1FD286E100E70107 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		3AD5553B1FD286E100E70107 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3AD555551FD288E000E70107 /* MineViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3AD5553C1FD286E100E70107 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5553D1FD286E100E70107 /* Controller */,
+				3AD5553E1FD286E100E70107 /* View */,
+				3AD555411FD286E100E70107 /* ViewModel */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		3AD5553D1FD286E100E70107 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3AD555571FD2891600E70107 /* MBMineController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3AD5553E1FD286E100E70107 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5553F1FD286E100E70107 /* Cell */,
+				3AD555401FD286E100E70107 /* SubView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AD5553F1FD286E100E70107 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3AD555611FD28A0100E70107 /* MBShopCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3AD555401FD286E100E70107 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5555B1FD289A100E70107 /* MBMineView.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		3AD555411FD286E100E70107 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5555D1FD289BF00E70107 /* MBShopViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3AD555421FD286E100E70107 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		3AD555431FD2877D00E70107 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3AD555441FD2877D00E70107 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3AD5554A1FD287FB00E70107 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5554B1FD2881400E70107 /* BaseController.swift */,
+				3AD5554F1FD2886B00E70107 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C727D0E60C5B929931F6030B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF13FCF6CCF389502A7B1C03 /* Pods-MaibeiMall_Swift.debug.xcconfig */,
+				2F4EB62714905ED98A1D6901 /* Pods-MaibeiMall_Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AD554ED1FD2832A00E70107 /* MaibeiMall_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD555161FD2832A00E70107 /* Build configuration list for PBXNativeTarget "MaibeiMall_Swift" */;
+			buildPhases = (
+				840A4FBE38A510B0188A1AE8 /* [CP] Check Pods Manifest.lock */,
+				3AD554EA1FD2832A00E70107 /* Sources */,
+				3AD554EB1FD2832A00E70107 /* Frameworks */,
+				3AD554EC1FD2832A00E70107 /* Resources */,
+				669ACFBED0246952A5D0BFB1 /* [CP] Embed Pods Frameworks */,
+				8496F4EB17F215E7AE5CC85D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaibeiMall_Swift;
+			productName = MaibeiMall_Swift;
+			productReference = 3AD554EE1FD2832A00E70107 /* MaibeiMall_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AD555011FD2832A00E70107 /* MaibeiMall_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD555191FD2832A00E70107 /* Build configuration list for PBXNativeTarget "MaibeiMall_SwiftTests" */;
+			buildPhases = (
+				3AD554FE1FD2832A00E70107 /* Sources */,
+				3AD554FF1FD2832A00E70107 /* Frameworks */,
+				3AD555001FD2832A00E70107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AD555041FD2832A00E70107 /* PBXTargetDependency */,
+			);
+			name = MaibeiMall_SwiftTests;
+			productName = MaibeiMall_SwiftTests;
+			productReference = 3AD555021FD2832A00E70107 /* MaibeiMall_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AD5550C1FD2832A00E70107 /* MaibeiMall_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD5551C1FD2832A00E70107 /* Build configuration list for PBXNativeTarget "MaibeiMall_SwiftUITests" */;
+			buildPhases = (
+				3AD555091FD2832A00E70107 /* Sources */,
+				3AD5550A1FD2832A00E70107 /* Frameworks */,
+				3AD5550B1FD2832A00E70107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AD5550F1FD2832A00E70107 /* PBXTargetDependency */,
+			);
+			name = MaibeiMall_SwiftUITests;
+			productName = MaibeiMall_SwiftUITests;
+			productReference = 3AD5550D1FD2832A00E70107 /* MaibeiMall_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AD554E61FD2832A00E70107 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = l.wu;
+				TargetAttributes = {
+					3AD554ED1FD2832A00E70107 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					3AD555011FD2832A00E70107 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3AD554ED1FD2832A00E70107;
+					};
+					3AD5550C1FD2832A00E70107 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3AD554ED1FD2832A00E70107;
+					};
+				};
+			};
+			buildConfigurationList = 3AD554E91FD2832A00E70107 /* Build configuration list for PBXProject "MaibeiMall_Swift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AD554E51FD2832A00E70107;
+			productRefGroup = 3AD554EF1FD2832A00E70107 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AD554ED1FD2832A00E70107 /* MaibeiMall_Swift */,
+				3AD555011FD2832A00E70107 /* MaibeiMall_SwiftTests */,
+				3AD5550C1FD2832A00E70107 /* MaibeiMall_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AD554EC1FD2832A00E70107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD554FC1FD2832A00E70107 /* LaunchScreen.storyboard in Resources */,
+				3AD554F91FD2832A00E70107 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD555001FD2832A00E70107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD5550B1FD2832A00E70107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		669ACFBED0246952A5D0BFB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaibeiMall_Swift/Pods-MaibeiMall_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		840A4FBE38A510B0188A1AE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8496F4EB17F215E7AE5CC85D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaibeiMall_Swift/Pods-MaibeiMall_Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AD554EA1FD2832A00E70107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD555491FD287C000E70107 /* BaseModel.swift in Sources */,
+				3AD5555E1FD289BF00E70107 /* MBShopViewModel.swift in Sources */,
+				3AD555471FD2879B00E70107 /* Header.swift in Sources */,
+				3AD5554E1FD2884000E70107 /* Categories.swift in Sources */,
+				3AD555501FD2886B00E70107 /* BaseView.swift in Sources */,
+				3AD555601FD289D100E70107 /* MBMineCell.swift in Sources */,
+				3AD5554C1FD2881400E70107 /* BaseController.swift in Sources */,
+				3AD555521FD288B200E70107 /* MBShopController.swift in Sources */,
+				3AD555621FD28A0100E70107 /* MBShopCell.swift in Sources */,
+				3AD555561FD288E000E70107 /* MineViewModel.swift in Sources */,
+				3AD555451FD2877D00E70107 /* AppDelegate.swift in Sources */,
+				3AD555541FD288CE00E70107 /* MBShopView.swift in Sources */,
+				3AD5555C1FD289A100E70107 /* MBMineView.swift in Sources */,
+				3AD555581FD2891600E70107 /* MBMineController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD554FE1FD2832A00E70107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD555071FD2832A00E70107 /* MaibeiMall_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD555091FD2832A00E70107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD555121FD2832A00E70107 /* MaibeiMall_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AD555041FD2832A00E70107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AD554ED1FD2832A00E70107 /* MaibeiMall_Swift */;
+			targetProxy = 3AD555031FD2832A00E70107 /* PBXContainerItemProxy */;
+		};
+		3AD5550F1FD2832A00E70107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AD554ED1FD2832A00E70107 /* MaibeiMall_Swift */;
+			targetProxy = 3AD5550E1FD2832A00E70107 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AD554FA1FD2832A00E70107 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AD554FB1FD2832A00E70107 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AD555141FD2832A00E70107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AD555151FD2832A00E70107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AD555171FD2832A00E70107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF13FCF6CCF389502A7B1C03 /* Pods-MaibeiMall_Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaibeiMall_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "l.wu.MaibeiMall-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AD555181FD2832A00E70107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4EB62714905ED98A1D6901 /* Pods-MaibeiMall_Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaibeiMall_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "l.wu.MaibeiMall-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AD5551A1FD2832A00E70107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaibeiMall_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "l.wu.MaibeiMall-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaibeiMall_Swift.app/MaibeiMall_Swift";
+			};
+			name = Debug;
+		};
+		3AD5551B1FD2832A00E70107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaibeiMall_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "l.wu.MaibeiMall-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaibeiMall_Swift.app/MaibeiMall_Swift";
+			};
+			name = Release;
+		};
+		3AD5551D1FD2832A00E70107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaibeiMall_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "l.wu.MaibeiMall-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaibeiMall_Swift;
+			};
+			name = Debug;
+		};
+		3AD5551E1FD2832A00E70107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaibeiMall_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "l.wu.MaibeiMall-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaibeiMall_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AD554E91FD2832A00E70107 /* Build configuration list for PBXProject "MaibeiMall_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD555141FD2832A00E70107 /* Debug */,
+				3AD555151FD2832A00E70107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD555161FD2832A00E70107 /* Build configuration list for PBXNativeTarget "MaibeiMall_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD555171FD2832A00E70107 /* Debug */,
+				3AD555181FD2832A00E70107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD555191FD2832A00E70107 /* Build configuration list for PBXNativeTarget "MaibeiMall_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD5551A1FD2832A00E70107 /* Debug */,
+				3AD5551B1FD2832A00E70107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD5551C1FD2832A00E70107 /* Build configuration list for PBXNativeTarget "MaibeiMall_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD5551D1FD2832A00E70107 /* Debug */,
+				3AD5551E1FD2832A00E70107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AD554E61FD2832A00E70107 /* Project object */;
+}
