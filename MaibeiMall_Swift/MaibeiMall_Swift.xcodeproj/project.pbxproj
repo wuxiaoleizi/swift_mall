@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A793F0F1FDE7E1100BD9066 /* MBMallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A793F0E1FDE7E1100BD9066 /* MBMallView.swift */; };
+		3A793F111FDE823E00BD9066 /* MBMallCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A793F101FDE823E00BD9066 /* MBMallCollectionCell.swift */; };
+		3A793F131FDE915600BD9066 /* MBMallHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A793F121FDE915600BD9066 /* MBMallHeaderReusableView.swift */; };
+		3ACC71351FDA7C7E00AE8D37 /* UIImage(Size).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC71341FDA7C7E00AE8D37 /* UIImage(Size).swift */; };
+		3ACC71371FDA7DBF00AE8D37 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC71361FDA7DBF00AE8D37 /* Color.swift */; };
+		3ACC71391FDA840600AE8D37 /* MBMineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC71381FDA840600AE8D37 /* MBMineController.swift */; };
+		3ACC713B1FDA841900AE8D37 /* MBShopControllerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC713A1FDA841900AE8D37 /* MBShopControllerController.swift */; };
+		3ACC713D1FDA857100AE8D37 /* MBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC713C1FDA857100AE8D37 /* MBTabBarController.swift */; };
+		3ACC713F1FDA859900AE8D37 /* MBBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC713E1FDA859900AE8D37 /* MBBaseNavigationController.swift */; };
+		3ACC71411FDB788100AE8D37 /* MBGoodsDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC71401FDB788100AE8D37 /* MBGoodsDetailController.swift */; };
 		3AD554F91FD2832A00E70107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD554F81FD2832A00E70107 /* Assets.xcassets */; };
-		3AD554FC1FD2832A00E70107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD554FA1FD2832A00E70107 /* LaunchScreen.storyboard */; };
 		3AD555071FD2832A00E70107 /* MaibeiMall_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555061FD2832A00E70107 /* MaibeiMall_SwiftTests.swift */; };
 		3AD555121FD2832A00E70107 /* MaibeiMall_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555111FD2832A00E70107 /* MaibeiMall_SwiftUITests.swift */; };
 		3AD555451FD2877D00E70107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555441FD2877D00E70107 /* AppDelegate.swift */; };
@@ -17,11 +26,8 @@
 		3AD5554C1FD2881400E70107 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5554B1FD2881400E70107 /* BaseController.swift */; };
 		3AD5554E1FD2884000E70107 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5554D1FD2884000E70107 /* Categories.swift */; };
 		3AD555501FD2886B00E70107 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5554F1FD2886B00E70107 /* BaseView.swift */; };
-		3AD555521FD288B200E70107 /* MBShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555511FD288B200E70107 /* MBShopController.swift */; };
 		3AD555541FD288CE00E70107 /* MBShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555531FD288CE00E70107 /* MBShopView.swift */; };
 		3AD555561FD288E000E70107 /* MineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555551FD288E000E70107 /* MineViewModel.swift */; };
-		3AD555581FD2891600E70107 /* MBMineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555571FD2891600E70107 /* MBMineController.swift */; };
-		3AD5555C1FD289A100E70107 /* MBMineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5555B1FD289A100E70107 /* MBMineView.swift */; };
 		3AD5555E1FD289BF00E70107 /* MBShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5555D1FD289BF00E70107 /* MBShopViewModel.swift */; };
 		3AD555601FD289D100E70107 /* MBMineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5555F1FD289D100E70107 /* MBMineCell.swift */; };
 		3AD555621FD28A0100E70107 /* MBShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD555611FD28A0100E70107 /* MBShopCell.swift */; };
@@ -47,9 +53,18 @@
 
 /* Begin PBXFileReference section */
 		2F4EB62714905ED98A1D6901 /* Pods-MaibeiMall_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaibeiMall_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaibeiMall_Swift/Pods-MaibeiMall_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		3A793F0E1FDE7E1100BD9066 /* MBMallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBMallView.swift; sourceTree = "<group>"; };
+		3A793F101FDE823E00BD9066 /* MBMallCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBMallCollectionCell.swift; sourceTree = "<group>"; };
+		3A793F121FDE915600BD9066 /* MBMallHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBMallHeaderReusableView.swift; sourceTree = "<group>"; };
+		3ACC71341FDA7C7E00AE8D37 /* UIImage(Size).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage(Size).swift"; sourceTree = "<group>"; };
+		3ACC71361FDA7DBF00AE8D37 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		3ACC71381FDA840600AE8D37 /* MBMineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBMineController.swift; sourceTree = "<group>"; };
+		3ACC713A1FDA841900AE8D37 /* MBShopControllerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBShopControllerController.swift; sourceTree = "<group>"; };
+		3ACC713C1FDA857100AE8D37 /* MBTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTabBarController.swift; sourceTree = "<group>"; };
+		3ACC713E1FDA859900AE8D37 /* MBBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBBaseNavigationController.swift; sourceTree = "<group>"; };
+		3ACC71401FDB788100AE8D37 /* MBGoodsDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBGoodsDetailController.swift; sourceTree = "<group>"; };
 		3AD554EE1FD2832A00E70107 /* MaibeiMall_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaibeiMall_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD554F81FD2832A00E70107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3AD554FB1FD2832A00E70107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AD554FD1FD2832A00E70107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AD555021FD2832A00E70107 /* MaibeiMall_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaibeiMall_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD555061FD2832A00E70107 /* MaibeiMall_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaibeiMall_SwiftTests.swift; sourceTree = "<group>"; };
@@ -63,11 +78,8 @@
 		3AD5554B1FD2881400E70107 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		3AD5554D1FD2884000E70107 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		3AD5554F1FD2886B00E70107 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
-		3AD555511FD288B200E70107 /* MBShopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBShopController.swift; sourceTree = "<group>"; };
 		3AD555531FD288CE00E70107 /* MBShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBShopView.swift; sourceTree = "<group>"; };
 		3AD555551FD288E000E70107 /* MineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewModel.swift; sourceTree = "<group>"; };
-		3AD555571FD2891600E70107 /* MBMineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBMineController.swift; sourceTree = "<group>"; };
-		3AD5555B1FD289A100E70107 /* MBMineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBMineView.swift; sourceTree = "<group>"; };
 		3AD5555D1FD289BF00E70107 /* MBShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBShopViewModel.swift; sourceTree = "<group>"; };
 		3AD5555F1FD289D100E70107 /* MBMineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBMineCell.swift; sourceTree = "<group>"; };
 		3AD555611FD28A0100E70107 /* MBShopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBShopCell.swift; sourceTree = "<group>"; };
@@ -137,7 +149,6 @@
 				3AD555431FD2877D00E70107 /* AppDelegate */,
 				3AD555311FD286E100E70107 /* Classes */,
 				3AD554F81FD2832A00E70107 /* Assets.xcassets */,
-				3AD554FA1FD2832A00E70107 /* LaunchScreen.storyboard */,
 				3AD554FD1FD2832A00E70107 /* Info.plist */,
 			);
 			path = MaibeiMall_Swift;
@@ -186,6 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				3AD555461FD2879B00E70107 /* Header.swift */,
+				3ACC71341FDA7C7E00AE8D37 /* UIImage(Size).swift */,
+				3ACC71361FDA7DBF00AE8D37 /* Color.swift */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -220,7 +233,7 @@
 		3AD555371FD286E100E70107 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3AD555511FD288B200E70107 /* MBShopController.swift */,
+				3ACC71381FDA840600AE8D37 /* MBMineController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -271,7 +284,8 @@
 		3AD5553D1FD286E100E70107 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3AD555571FD2891600E70107 /* MBMineController.swift */,
+				3ACC713A1FDA841900AE8D37 /* MBShopControllerController.swift */,
+				3ACC71401FDB788100AE8D37 /* MBGoodsDetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -289,6 +303,7 @@
 			isa = PBXGroup;
 			children = (
 				3AD555611FD28A0100E70107 /* MBShopCell.swift */,
+				3A793F101FDE823E00BD9066 /* MBMallCollectionCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -296,7 +311,8 @@
 		3AD555401FD286E100E70107 /* SubView */ = {
 			isa = PBXGroup;
 			children = (
-				3AD5555B1FD289A100E70107 /* MBMineView.swift */,
+				3A793F0E1FDE7E1100BD9066 /* MBMallView.swift */,
+				3A793F121FDE915600BD9066 /* MBMallHeaderReusableView.swift */,
 			);
 			path = SubView;
 			sourceTree = "<group>";
@@ -328,6 +344,8 @@
 			isa = PBXGroup;
 			children = (
 				3AD5554B1FD2881400E70107 /* BaseController.swift */,
+				3ACC713C1FDA857100AE8D37 /* MBTabBarController.swift */,
+				3ACC713E1FDA859900AE8D37 /* MBBaseNavigationController.swift */,
 				3AD5554F1FD2886B00E70107 /* BaseView.swift */,
 			);
 			path = Base;
@@ -452,7 +470,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AD554FC1FD2832A00E70107 /* LaunchScreen.storyboard in Resources */,
 				3AD554F91FD2832A00E70107 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,20 +543,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ACC713F1FDA859900AE8D37 /* MBBaseNavigationController.swift in Sources */,
+				3ACC71411FDB788100AE8D37 /* MBGoodsDetailController.swift in Sources */,
+				3ACC71351FDA7C7E00AE8D37 /* UIImage(Size).swift in Sources */,
+				3A793F0F1FDE7E1100BD9066 /* MBMallView.swift in Sources */,
 				3AD555491FD287C000E70107 /* BaseModel.swift in Sources */,
 				3AD5555E1FD289BF00E70107 /* MBShopViewModel.swift in Sources */,
 				3AD555471FD2879B00E70107 /* Header.swift in Sources */,
 				3AD5554E1FD2884000E70107 /* Categories.swift in Sources */,
+				3ACC71371FDA7DBF00AE8D37 /* Color.swift in Sources */,
 				3AD555501FD2886B00E70107 /* BaseView.swift in Sources */,
 				3AD555601FD289D100E70107 /* MBMineCell.swift in Sources */,
+				3ACC713B1FDA841900AE8D37 /* MBShopControllerController.swift in Sources */,
 				3AD5554C1FD2881400E70107 /* BaseController.swift in Sources */,
-				3AD555521FD288B200E70107 /* MBShopController.swift in Sources */,
 				3AD555621FD28A0100E70107 /* MBShopCell.swift in Sources */,
+				3A793F111FDE823E00BD9066 /* MBMallCollectionCell.swift in Sources */,
 				3AD555561FD288E000E70107 /* MineViewModel.swift in Sources */,
 				3AD555451FD2877D00E70107 /* AppDelegate.swift in Sources */,
+				3ACC713D1FDA857100AE8D37 /* MBTabBarController.swift in Sources */,
+				3A793F131FDE915600BD9066 /* MBMallHeaderReusableView.swift in Sources */,
 				3AD555541FD288CE00E70107 /* MBShopView.swift in Sources */,
-				3AD5555C1FD289A100E70107 /* MBMineView.swift in Sources */,
-				3AD555581FD2891600E70107 /* MBMineController.swift in Sources */,
+				3ACC71391FDA840600AE8D37 /* MBMineController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,17 +597,6 @@
 			targetProxy = 3AD5550E1FD2832A00E70107 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3AD554FA1FD2832A00E70107 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AD554FB1FD2832A00E70107 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3AD555141FD2832A00E70107 /* Debug */ = {
@@ -699,9 +712,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWS25QKRW8;
 				INFOPLIST_FILE = MaibeiMall_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "l.wu.MaibeiMall-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.MaibeiMallSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -714,9 +729,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWS25QKRW8;
 				INFOPLIST_FILE = MaibeiMall_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "l.wu.MaibeiMall-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.MaibeiMallSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
